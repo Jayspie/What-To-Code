@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css " />
+    <title>Document</title>
+</head>
+<body>
+  <ul id="nav">
+    <li class="nav_items">Github</li>
+    <li class="nav_items">About</li>
+    <li class="nav_items">Full List</li>
+  </ul>
+<h1>What Should I Code?</h1>
+<div id="proj_box">
+  <ul id="number">
+  </ul>
+</div>
+</body>
+<script>
+    const items=[
+"Markov chain sentence generator",
+"To-do list application (Web or cli)",
+"Chatbot",
+"Image to ASCII Art",
+"Imageboard (Imagine vichan)",
+"Create an HSV Color Representation",
+"Old school demo effects",
+"Fizzbuzz",
+"RPN Calculator",
+"Count occurrences of characters in a given string",
+"Towers of Hanoi",
+"Calculator the first n digits of pi",
+"Highest prime factor calculator",
+"Password generator",
+"Caesar cipher solver",
+"ROT 13",
+"Text encryption/decryption "/*(http://rumkin.com/tools/cipher/)*/,
+"Text to hex/binary converter",
+"Sierpinski triangle",
+"Basic neural network",
+"Complimentary colour generator",
+"Eulerian path",
+"Draw spinning 3D cube"
+,"Cellular textures"
+,"Snake"
+,"Rock paper scissors"
+,"Design a game engine in Unity"
+,"Yahtzee"
+,"Oil Panic"
+,"Connect four"
+,"Simon"
+,"Ulam spiral"
+,"PDF tagger"
+,"ASCII digital clock"
+,"Calculate dot and cross product of two vectors"
+,"Download manager"
+,"Elastic producer/consumer task queue"
+,"IRC client"
+,"English sentence parser" /*that points to the context of a sentence*/
+,"MIDI player & editor"
+,"Stock market simulator using yahoo spreadsheet data"
+,"Graphing calculator"
+,"TCP/UDP chat server & client"
+,"Shazam"
+,"Curses text editor"
+,"Paint clone"
+,"Image converter"
+,"ID3 Reader"
+,"C++ IDE plugin for sublime/atom/vscode"
+,"Simple version control"
+,"Password manager"
+,"IP/URL Obscurification"
+,"Radix base converter"
+,"Encrypted file share"
+,"Window manager"
+,"Pixel editor"
+,"Trivial file transfer protocol"
+,"Markdown editor"
+,"Music visualizer"
+,"Unicode converter"
+,"Least square fitting algorithm"
+,"Image steganography"
+,"Vignere cipher encryption/decryption"
+,"Game of life"
+,"Dijkstra's Algorthim"
+,"Program that displays MBR Contents"
+,"Random name generator"
+,"Calculate the first 1,000 digits of pi iteratively"
+,"Mandlebrot set"
+,"AI for roguelikes"
+,"Sudoku puzzle solver using A* algorithm"
+,"Connect 4 AI"
+,"Real neural network"
+,"Virtual machine with a script that writes 'Hello, world'"
+,"Terminal shell"
+,"HTML & Javascript debugger"
+,"Interpreted LISP-like programming language"
+,"Universal asynchronous receiver/transmitter game"
+,"Static website generator (Scriptable template, content)"
+,"Chip 8 emulator"
+,"Double pendulum simulation"
+,"Constructive solid geometry"
+,"Generate a 5-colour scheme" /*from the most dominant tones in an image*/
+,"N-body simulator"
+,"Knight's tour"
+,"Tetris"
+,"Pipe dreams"
+,"Pac man"
+,"Shuffling a deck of cards (with visualisation)"
+,"Simulate a game of tag using a multi-agent system"
+,"Scorched earch clone"
+,"Minesweeper"
+,"An audio/visual 64KB demonstration"
+,"Sudoku"
+,"Chess"
+,"Mastermind"
+,"Missile command game"
+,"Tron"
+,"Breakout"
+,"Bellman-Ford simulation with at least five vertices"
+,"Matrix arithmetic"
+,"File compression Utility (GUI)"
+,"Bismuth fractal"
+,"Seam carving"
+,"Bayesian Filter"
+,"Rubik's cube solver"
+,"Parametric/Graphic equalizer for .wav files"
+,"Verlet integration"
+,"Sound Synthesis"
+,"Torrent client (CLI or GUI)"
+,"Text editor"
+,"OpenAI Gym project"
+,"Convolutional neural network"
+,"Mount filesystems from other OSes using FUSE model"
+,"Pong game as a UEFI file in colour"
+,"Esoteric Language"
+,'C Compiler'
+,"Turing machine simulator"
+,"Read, evaluate, print loop using a compiled language"
+,"Ray tracer"
+,"Real-time fast fourier transform spectrum visualiser"
+,"TI-86 emulator"
+,"Monster raising/breeding simulator"
+,"Dragon quest / basic RPG engine"
+,"First person engine in OpenGL"
+,"Wolfenstein clone"
+,"Danmaku engine"
+,"Roguelike engine/dungeon generator"
+,"Go"
+,"LISP Interpreter"
+,"Nonogram generator and solver"
+,"WMS viewer that isn't web based"
+,"Relational database system"
+,"Bootloader"
+,"General Lambert's problem solver"
+,"Convolutional Neural Network"];
+const list=[]
+function get_random (listx) {
+  for(let i=0; i<=20; i++){
+      list.push(listx[Math.floor((Math.random()*listx.length))]);
+    }
+  }
+get_random(items);
+    const table=document.getElementById("number")
+    for(let i=0; i<list.length; i++) {
+      table.innerHTML+=`
+            <li class="dates">${list[i]}</li>`
+    }
+</script>
+</html>
