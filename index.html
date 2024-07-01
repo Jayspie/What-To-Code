@@ -7,6 +7,17 @@
     <title>What To Code</title>
 </head>
 <body>
+  <div id="dad">
+    <div id="mySidenav" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="navbar" target="_blank" href="https://github.com/Jayspie/What-To-Code">Github</a>
+      <a class="navbar" target="_blank" href="https://github.com/Jayspie/What-To-Code?tab=readme-ov-file#what-to-code">About</a>
+      <a target="_blank" href="https://github.com/Jayspie/What-To-Code/blob/main/Project_list.md"class="navbar"
+        target="_blank">Full List</a>
+    </div>
+    <!-- Use any element to open the sidenav -->
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
+  </div>
   <ul id="nav">
     <li class="nav_items"><a target="_blank" href="https://github.com/Jayspie/What-To-Code">Github</a></li>
     <li class="nav_items"><a target="_blank" href="https://github.com/Jayspie/What-To-Code?tab=readme-ov-file#what-to-code">About</a></li>
@@ -168,5 +179,13 @@ get_random(items);
       table.innerHTML+=`
             <li class="dates">${list[i]}</li>`
     }
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
 </script>
 </html>

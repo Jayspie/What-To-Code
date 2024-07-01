@@ -31,6 +31,9 @@ body{
     color:black;
     text-decoration: none;
 }
+#dad{
+    display:none;
+}
 h1{
     width: 30%;
     margin: 15% auto;
@@ -82,6 +85,7 @@ h1{
     80%,100%{
         transform:translate(0,-63em)
     }
+
 }
 @media screen and (max-width: 1920px){
     .nav_items{
@@ -110,4 +114,123 @@ h1{
     #proj_box{
         width: 100%;
     }
+}
+@media screen and (max-width: 768px){
+    #dad{
+        display:block;
+    }
+    .openbtn {
+        font-size: 48px;
+        background-color:transparent;
+        color: white;
+        margin-left:93%;
+        }
+        
+          .sidebar {
+          height: 100%; /* 100% Full-height */
+          width: 0; /* 0 width - change this with JavaScript */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Stay on top */
+          top: 0; /* Stay at the top */
+          right: 0;
+          background: linear-gradient(180deg, #52375C,#ff8f8f, #fffc99);
+          overflow-x: hidden; /* Disable horizotal scroll */
+          padding-top: 60px; /* Place content 60px from the top */
+          transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+          }
+        
+            .sidebar a {
+            text-decoration: none;
+            font-size: 24px;
+            text-align: left;
+            color: #f6ffff;
+            display: block;
+            transition: 0.3s;
+            width:50%;
+            font-family:Josefin Sans;
+            }
+        
+          .navbar{
+          margin-bottom: 30%;
+          margin-left: 10%;
+          } 
+            .sidebar button {
+            border:none;
+            background-color:transparent;
+            padding-bottom: 50px;
+            padding-left: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            font-family:mermaid;
+            text-align: left;
+            color: #f6ffff;
+            display: block;
+            transition: 0.3s;
+            width: 85%;
+            height:10px;
+            margin-top:-100px;
+            margin-bottom:125px;
+            }
+        
+            .sidebar button:hover{
+            color: #5ee4f9; 
+            }
+        
+            .sidebar a:hover {
+            color: #5ee4f9;
+            }
+        
+            .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 48px;
+            width: 10px;
+            height: 0px;
+            display:block;
+            }
+            #nav{
+                display: none;
+            }
+
+            h1{
+                width: 45%;
+                margin: 15% auto;
+                font-family:Josefin Sans;
+                text-align: center;
+            }
+            .dates{
+                list-style-type:none;
+                width: 100%;
+                height: 30px;
+                margin: 25px -3%;
+                font-family:Josefin Sans;
+                padding: 0 auto;
+                text-align: center;
+
+             }
+}
+@media screen and (max-width: 450px){
+    .openbtn {
+        font-size: 48px;
+        background-color:transparent;
+        color: white;
+        margin-left:85%;
+        }
+        h1{
+            width: 85%;
+            margin: 15% auto;
+            font-family:Josefin Sans;
+            text-align: center;
+        }
+        .dates{
+            list-style-type:none;
+            width: 100%;
+            height: 30px;
+            font-size: 20px;
+            margin: 25px -5%;
+            font-family:Josefin Sans;
+            padding: 0 auto;
+            text-align: center;
+         }
 }

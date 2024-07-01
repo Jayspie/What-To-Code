@@ -46,9 +46,11 @@ Below is a List of features that will be added soon.
 - *-* The feature is currently being worked on  
 - &#9744; Still needs work 
 
-*-* Moblie Responsive 
+&check; Moblie Responsive 
 
-&#9744; Add resources
+&#9744; Categorize each project by Easy, Medium, Difficult, Very Difficult
+
+&#9744; Add resources to each project
 
 &#9744; Create About Page
 

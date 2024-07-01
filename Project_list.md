@@ -76,7 +76,7 @@
 37. **Connect 4 AI**
 38. **Real neural network** - Implement a basic feed-forward neural network using matrices for entire layers along with matrix operations for computations
 40. **Virtual machine with a script that writes "Hello, world"**
-41. **Terminal shell** (Executable binaries, pipe system, redirection, history
+41. **Terminal shell** (Executable binaries, pipe system, redirection, history)
 42. **HTML & Javascript debugger**
 43. **Interpreted LISP-like programming language**
 44. **Universal asynchronous receiver/transmitter game**
