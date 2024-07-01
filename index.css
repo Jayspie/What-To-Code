@@ -20,6 +20,16 @@ body{
   text-align:center;
   margin-left:9%;
   font-family:Josefin Sans;
+  text-decoration: none;
+}
+.nav_items a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.nav_items a:visited{
+    color:black;
+    text-decoration: none;
 }
 h1{
     width: 30%;
