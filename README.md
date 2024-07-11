@@ -43,14 +43,14 @@ WARNING: DO NOT START WORKING ON FEATURES UNTIL YOU ARE GIVEN THE OK.
 Below is a List of features that will be added soon. 
 
 - &check; The feature has been completed
-- *-* The feature is currently being worked on  
+- &#65293; The feature is currently being worked on  
 - &#9744; Still needs work 
 
 &check; Moblie Responsive 
 
-&#9744; Categorize each project by Easy, Medium, Difficult, Very Difficult
+&#65293; Categorize each project by Easy, Medium, Difficult, Very Difficult
 
-&#9744; Add resources to each project
+&#65293; Add resources to each project
 
 &#9744; Create About Page
 

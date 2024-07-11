@@ -6,35 +6,28 @@
 5. **Imageboard** (Imagine vichan)
 6. **Create an HSV Color Representation**
 7. **Old school demo effects** (Plasma, Tunnel, Scrollers, Zoomers, etc)
-8. **Fizzbuzz**
-9. **RPN Calculator**
-10. **Count occurrences of characters in a given string**
-11. **Towers of Hanoi**
-12. **Calculator the first n digits of pi**
-13. **Given an array of stock values over time, find the period of time where the stocks could have made the most money**
-14. **Highest prime factor calculator**
-15. **Password generator**
-16. **Caesar cipher solver**
-17. **ROT 13**
-18. **Text encryption/decryption** (http://rumkin.com/tools/cipher/)
-19. **Text to hex/binary converter**
-20. **Sierpinski triangle**
-21. **Basic neural network** - Simulate individual neurons and their connections
-22. **Complimentary colour generator**
-23. **Eulerian path**
-24. **Draw spinning 3D cube**
-25. **Cellular textures**
-26. **Snake**
-27. **Rock paper scissors**
-28. **Design a game engine in Unity**
-29. **Yahtzee**
-30. **Oil Panic**
-31. **Connect four**
-32. **Simon**
-33. **Ulam spiral**
-34. **PDF tagger**
-35. **ASCII digital clock**
-69. **Calculate dot and cross product of two vectors**
+8. **Towers of Hanoi**
+9. **Calculator the first n digits of pi**
+10. **Password generator**
+11. **Caesar cipher solver**
+12. **Text to hex/binary converter**
+13. **Sierpinski triangle**
+14. **Basic neural network** - Simulate individual neurons and their connections
+15. **Complimentary colour generator**
+16. **Eulerian path**
+17. **Draw spinning 3D cube**
+18. **Cellular textures**
+19. **Snake**
+20. **Rock paper scissors**
+21. **Design a game engine in Unity**
+22. **Yahtzee**
+23. **Oil Panic**
+24. **Connect four**
+25. **Simon**
+26. **Ulam spiral**
+27. **PDF tagger**
+28. **ASCII digital clock**
+29. **Calculate dot and cross product of two vectors**
 
 ### Medium
 1. **Download manager**
@@ -133,9 +126,10 @@
 21. **Danmaku engine**
 22. **Roguelike engine/dungeon generator**
 23. **Go**
-24. **LISP Interpreter**
-25. **Nonogram generator and solver**
-26. **WMS viewer that isn't web based**
+24. **Learn Vim**
+25. **LISP Interpreter**
+26. **Nonogram generator and solver**
+27. **WMS viewer that isn't web based**
 
 ### Very difficult 
 1. **Relational database system** (SQL support, relationships, efficient)

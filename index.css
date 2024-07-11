@@ -52,7 +52,7 @@ h1{
 #number{
     padding: 0 auto;
    transform: translate(0,-1em);
-   animation: rolling 20s 1s ease-in-out forwards;
+   animation: rolling 19s 1s ease-in-out forwards;
 }
 .dates{
    list-style-type:none;
@@ -62,6 +62,32 @@ h1{
    margin: 25px auto;
    font-family:Josefin Sans;
    text-align: center;
+}
+#resources{
+    display: none;
+    font-family:Josefin Sans;
+    width:50%;
+    margin: 150px auto; 
+    text-align: center;
+}
+#level{
+    margin-top:5px;
+}
+.links{
+    border-radius: 9999px;
+  padding: 10px 2rem;
+  background-color:#f8d0d0;
+  color:black;
+  display:inline-block;
+  font-size:20px;
+  list-style-type: none;
+  width:13%;
+  text-align:center;
+  margin-left:9%;
+  font-family:Josefin Sans;
+  text-decoration: none;
+  margin:25px;
+  
 }
 @keyframes rolling {
     0%,16%{
@@ -83,7 +109,7 @@ h1{
         transform:translate(0,-45%)
     }
     80%,100%{
-        transform:translate(0,-63em)
+        transform:translate(0,-69.6em)
     }
 
 }
