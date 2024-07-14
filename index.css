@@ -117,6 +117,9 @@ h1{
     .nav_items{
       margin-left:10%;
     }
+    #resources{
+        margin: 200px auto; 
+    }
 }
 @media screen and (max-width: 1440px){
     .nav_items{
@@ -124,6 +127,9 @@ h1{
       }
       #proj_box{
         width: 90%;
+    }
+    #resources{
+        margin: 150px auto;
     }
 }
 @media screen and (max-width: 1024px){
@@ -259,4 +265,7 @@ h1{
             padding: 0 auto;
             text-align: center;
          }
+         .links{
+            width:50%;
+        }     
 }
